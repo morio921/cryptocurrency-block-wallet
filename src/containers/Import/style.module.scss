@@ -1,0 +1,61 @@
+@import "constants/colors.scss";
+
+.bpw-container {
+  padding: 30px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .form {
+    .formField {
+      margin-bottom: 30px;
+
+      label {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: $color_light_black;
+      }
+
+      textarea {
+        display: block;
+        width: 100%;
+        color: $color_light_black;
+        font-size: 15px;
+        border: 1px solid $color_grey;
+        border-radius: 5px;
+        margin-top: 5px;
+        resize: none;
+
+        &:focus {
+          outline: none;
+          border-color: $color_blue;
+        }
+
+        &.error {
+          border-color: $error_color;
+        }
+      }
+
+      .errorText {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        color: $error_color;
+        margin-top: 5px;
+      }
+    }
+
+    .submit {
+      text-align: center;
+
+      button {
+        margin-top: 20px;
+
+        svg {
+          margin-left: 10px;
+          width: 18px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

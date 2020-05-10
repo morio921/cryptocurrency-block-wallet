@@ -1,0 +1,55 @@
+@import "constants/colors.scss";
+
+.bpw-noTransaction {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bpw-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+
+  .table {
+    tr {
+      display: grid;
+      grid-template-columns: 130px 200px 80px 60px 70px 110px 100px;
+
+      th {
+        color: $color_medium_black;
+        font-size: 14px;
+        padding: 7px 0 7px 20px;
+        font-weight: 500;
+      }
+
+      td {
+        font-size: 14px;
+        color: $color_medium_black;
+        padding: 7px 0 7px 20px;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        align-items: center;
+
+        .balance {
+          color: $color_green;
+
+          &.minus {
+            color: $error_color;
+          }
+        }
+
+        a {
+          color: $color_green;
+        }
+      }
+    }
+
+    tbody tr:nth-of-type(odd) {
+      background-color: $border_color;
+    }
+  }
+}

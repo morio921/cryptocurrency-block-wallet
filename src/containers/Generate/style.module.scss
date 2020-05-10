@@ -1,0 +1,34 @@
+@import "constants/colors.scss";
+
+.bpw-container {
+  padding: 30px 20px;
+  text-align: center;
+
+  p {
+    color: $text_color;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+    border-radius: 5px;
+    border: 1px solid $color_grey;
+    padding: 5px;
+    font-weight: 400;
+
+    span {
+      margin-right: 20px;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  button {
+    margin-top: 50px;
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+@import "constants/colors.scss";
+
+.bpw-container {
+  background: $color_white;
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  bottom: -550px;
+  transition: 0.5s;
+  z-index: 100;
+  padding: 20px 25px;
+
+  &.active {
+    bottom: 0px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: monospace;
+
+    .closeBtn {
+      position: absolute;
+      font-size: 25px;
+      right: -12px;
+      cursor: pointer;
+    }
+  }
+
+  p {
+    color: $text_color;
+
+    a {
+      color: $color_blue;
+
+      &:hover {
+        color: $color_blue;
+      }
+    }
+  }
+
+  > button span {
+    padding-top: 2px;
+
+    svg {
+      height: 21px;
+      width: 18px;
+      margin-left: 5px;
+      padding-bottom: 1px;
+    }
+  }
+
+  .body {
+    margin-top: 20px;
+
+    .formField {
+      margin-bottom: 20px;
+
+      label {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: $color_light_black;
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      a {
+        color: #2d7cc2;
+        font-size: 14px;
+        margin-left: 5px;
+        cursor: pointer;
+        float: right;
+      }
+    }
+
+    .submit {
+      padding-top: 10px;
+      text-align: center;
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+
+    label {
+      color: $color_blue;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

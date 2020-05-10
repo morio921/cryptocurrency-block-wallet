@@ -1,0 +1,62 @@
+@import "constants/colors.scss";
+
+.blockparty-wallet-btn {
+  margin: 0;
+  padding: 0px 30px !important;
+  height: 40px;
+  cursor: pointer;
+
+  &:not(.btn-round) {
+    border-radius: 5px;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+  }
+
+  &:disabled {
+    cursor: no-drop;
+  }
+
+  &.btn-primary,
+  &.btn-secondary,
+  &.btn-success,
+  &.btn-danger,
+  &.btn-warning,
+  &.btn-info,
+  &.btn-dark {
+    color: $color_white;
+    border: none !important;
+  }
+
+  &.btn-success {
+    background: $color_green !important;
+    box-shadow: 0 1px 5px transparentize($color_green, 0.5) !important;
+
+    &:hover {
+      background: darken($color_green, 5) !important;
+    }
+
+    &:not(:disabled):not(.disabled):active {
+      background: darken($color_green, 10) !important;
+    }
+
+    &.disabled {
+      opacity: 0.6;
+    }
+  }
+
+  &.btn-outline-dark {
+    border: 1px solid $color_black;
+
+    &:hover {
+      background: $color_white !important;
+      border-color: transparentize($color_green, 0.2) !important;
+      color: transparentize($color_green, 0.2) !important;
+    }
+  }
+
+  &.btn-round {
+    border-radius: 30px !important;
+  }
+}
