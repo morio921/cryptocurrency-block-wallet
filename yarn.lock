@@ -2654,13 +2654,13 @@ bip-schnorr@^0.3.0:
     random-bytes "^1.0.0"
     safe-buffer "^5.0.1"
 
-bip21@Bitcoin-com/bip21, "bip21@github:Bitcoin-com/bip21":
+bip21@Bitcoin-com/bip21:
   version "2.0.1"
   resolved "https://codeload.github.com/Bitcoin-com/bip21/tar.gz/28f8d03a3a16ed11eb5b963248ed1be8c46c6d6f"
   dependencies:
     qs "^6.3.0"
 
-bip32-utils@Bitcoin-com/bip32-utils#0.13.1, "bip32-utils@github:Bitcoin-com/bip32-utils#0.13.1":
+bip32-utils@Bitcoin-com/bip32-utils#0.13.1:
   version "0.13.1"
   resolved "https://codeload.github.com/Bitcoin-com/bip32-utils/tar.gz/b8a33ebd0a0ac39de7cd987e5c3f77a8c5d84e58"
   dependencies:
@@ -3574,7 +3574,7 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-coininfo@Bitcoin-com/coininfo, "coininfo@github:Bitcoin-com/coininfo":
+coininfo@Bitcoin-com/coininfo:
   version "4.0.0"
   resolved "https://codeload.github.com/Bitcoin-com/coininfo/tar.gz/eece2c6141d08c3e7783929f2a1e1e681aa1a82c"
   dependencies:
@@ -13254,9 +13254,9 @@ xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
